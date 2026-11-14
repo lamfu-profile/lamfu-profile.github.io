@@ -1,0 +1,11 @@
+[
+  {
+    "title": "LAMFU 캐릭터 시트",
+    "image": "images/lamfu-sheet.jpg",
+    "category": "캐릭터 시트",
+    "description": "작가 캐릭터 LAMFU (Lamb + wolf)의 기본 시트.\n표정 컷, SD, 컬러 팔레트, 신발 디테일 포함.\n신발은 워커, 바지와 동일 색상.",
+    "tags": ["LAMFU", "자캐", "캐릭터시트", "오리지널"],
+    "date": "2026-11-15",
+    "featured": true
+  }
+]

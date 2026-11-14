@@ -1,0 +1,150 @@
+media:
+  input: images
+  output: images
+  categories: [image]
+  rename: safe
+
+content:
+  - name: works
+    label: 작품
+    type: file
+    path: data/works.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: 제목
+        type: string
+        required: true
+      - name: image
+        label: 이미지
+        type: image
+        required: true
+      - name: category
+        label: 카테고리
+        type: string
+        required: true
+        description: "'사이트 설정 > 카테고리'에 있는 이름과 똑같이 적어주세요. 목록에 없는 이름을 쓰면 회색 탭으로 새로 생겨요."
+      - name: description
+        label: 설명
+        type: text
+      - name: tags
+        label: 해시태그
+        type: string
+        list: true
+        description: "# 없이 하나씩 입력해요. 검색에 쓰여요."
+      - name: date
+        label: 날짜
+        type: date
+        description: 최신 날짜가 맨 앞에 보여요.
+      - name: featured
+        label: 홈 메인 배너에 걸기
+        type: boolean
+
+  - name: site
+    label: 사이트 설정
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: profile
+        label: 프로필
+        type: object
+        fields:
+          - name: name
+            label: 활동명
+            type: string
+          - name: role
+            label: 직함
+            type: string
+          - name: lead
+            label: 한 줄 소개 (홈 배너)
+            type: string
+          - name: intro
+            label: 자기소개
+            type: text
+          - name: fields
+            label: 작업 분야
+            type: string
+            list: true
+          - name: tools
+            label: 사용 툴
+            type: string
+            list: true
+          - name: email
+            label: 이메일
+            type: string
+          - name: links
+            label: 링크
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: 이름 (예 X, 포스타입)
+                type: string
+              - name: url
+                label: 주소 (https://로 시작)
+                type: string
+          - name: commission
+            label: 커미션 상태
+            type: select
+            options:
+              values:
+                - name: open
+                  label: OPEN · 신청 가능
+                - name: closed
+                  label: CLOSED · 마감
+          - name: commissionNote
+            label: 커미션 안내 문구
+            type: text
+      - name: hero
+        label: 홈 LAMFU 프레임 그림
+        type: object
+        fields:
+          - name: image
+            label: 그림
+            type: image
+          - name: zoom
+            label: 크기 (%)
+            type: number
+            description: 100이 기본이에요. 크게 하려면 숫자를 올려요.
+          - name: x
+            label: 좌우 위치 (0~100)
+            type: number
+          - name: y
+            label: 위아래 위치 (0~100)
+            type: number
+            description: 0이면 그림 윗부분, 100이면 아랫부분이 보여요.
+      - name: categories
+        label: 카테고리
+        type: object
+        list: true
+        description: 순서대로 Works 탭에 표시돼요.
+        fields:
+          - name: name
+            label: 이름 (한글)
+            type: string
+          - name: en
+            label: 영문 표기
+            type: string
+          - name: color
+            label: 색
+            type: select
+            options:
+              values:
+                - name: "#D46A70"
+                  label: 코랄
+                - name: "#E879B9"
+                  label: 마젠타
+                - name: "#F5A9AE"
+                  label: 핑크
+                - name: "#E7BDBD"
+                  label: 블러시
+                - name: "#A9A9AE"
+                  label: 뿔 회색
+                - name: "#4A4A50"
+                  label: 차콜
+                - name: "#1F1F23"
+                  label: 블랙
+                - name: "#6B2A30"
+                  label: 와인
