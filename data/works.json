@@ -21,7 +21,19 @@
       "OC",
       "캐릭터시트"
     ],
-    "date": "2026-11-15",
+    "date": "2024-05-31",
+    "featured": false
+  },
+  {
+    "title": "보라색 토끼 어쩌구 캐릭터 시트",
+    "image": "images/kakaotalk2023012511465141502.png",
+    "category": "캐릭터시트",
+    "description": "롭이어 토끼 + 정보상의 캐릭터 시트\n\n",
+    "tags": [
+      "OC",
+      "캐릭터시트"
+    ],
+    "date": "2023-01-25",
     "featured": false
   }
 ]
