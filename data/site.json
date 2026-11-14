@@ -2,12 +2,12 @@
   "profile": {
     "name": "LAMFU",
     "role": "일러스트레이터",
-    "lead": "양과 늑대 사이 어딘가. 썸네일과 일러스트, 캐릭터 시트를 그립니다.",
-    "intro": "",
-    "fields": ["썸네일", "일러스트", "캐릭터 시트"],
-    "tools": [],
-    "email": "",
-    "links": [],
+    "lead": "썸네일과 간단한 만화 등 캐릭터 일러스트 작업을 하고 있습니ㅏㄷ.",
+    "fields": [
+      "썸네일",
+      "일러스트",
+      "캐릭터 시트"
+    ],
     "commission": "open",
     "commissionNote": "문의는 프로필 페이지의 연락처로 부탁드려요."
   },
@@ -18,8 +18,20 @@
     "y": 15
   },
   "categories": [
-    { "name": "썸네일", "en": "THUMBNAIL", "color": "#D46A70" },
-    { "name": "일러스트", "en": "ILLUSTRATION", "color": "#E879B9" },
-    { "name": "캐릭터 시트", "en": "CHARACTER SHEET", "color": "#A9A9AE" }
+    {
+      "name": "썸네일",
+      "en": "THUMBNAIL",
+      "color": "#D46A70"
+    },
+    {
+      "name": "일러스트",
+      "en": "ILLUSTRATION",
+      "color": "#E879B9"
+    },
+    {
+      "name": "캐릭터 시트",
+      "en": "CHARACTER SHEET",
+      "color": "#A9A9AE"
+    }
   ]
 }
