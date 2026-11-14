@@ -37,14 +37,36 @@
     "featured": false
   },
   {
-    "title": "[Be인간들] ??:이름 미륵으로 지은놈 나와라... 썸네일",
+    "title": "[Be인간들] \"??:이름 미륵으로 지은놈 나와라...\" 썸네일",
     "image": "images/file.jpg",
     "category": "썸네일",
-    "description": "원본 영상 : https://youtu.be/7ipMHKBco34?si=LRwFIsW-O3HftKDv\n첫 썸네일 작업물입니다.",
+    "description": "영상 영상 : https://youtu.be/7ipMHKBco34?si=LRwFIsW-O3HftKDv\n첫 썸네일 작업물입니다.",
     "tags": [
       "썸네일"
     ],
-    "date": "2026-11-15",
+    "date": "2024-10-02",
+    "featured": false
+  },
+  {
+    "title": "[Be인간들] \"어이 Be:인간들 신병 받아라\" 썸네일",
+    "image": "images/2-1.jpg",
+    "category": "썸네일",
+    "description": "영상 링크 : https://youtu.be/glrW9eH8b1M?si=MWvMcq2KLynDwGQ9\n두 번째 썸네일 작업물입니다.",
+    "tags": [
+      "썸네일"
+    ],
+    "date": "2025-02-05",
+    "featured": false
+  },
+  {
+    "title": "[Be 인간들] \" 이런 REPO 업데이트를 원한 건 아니라고!!!\" 썸네일",
+    "image": "images/2-1-1.jpg",
+    "category": "썸네일",
+    "description": "영상 링크 : https://youtu.be/D_P7leKOCKw?si=YHf6-xEELbBHTUrp",
+    "tags": [
+      "썸네일"
+    ],
+    "date": "2025-12-23",
     "featured": false
   }
 ]
