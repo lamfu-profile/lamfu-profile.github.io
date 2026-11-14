@@ -8,7 +8,17 @@
       "일러스트",
       "캐릭터 시트"
     ],
-    "commission": "open",
+    "links": [
+      {
+        "label": "X",
+        "url": "https://x.com/Lamfu211"
+      },
+      {
+        "label": "Discord",
+        "url": "LamFu"
+      }
+    ],
+    "commission": "closed",
     "commissionNote": "문의는 프로필 페이지의 연락처로 부탁드려요."
   },
   "hero": {
