@@ -68,5 +68,16 @@
     ],
     "date": "2025-12-23",
     "featured": false
+  },
+  {
+    "title": "개인 일러스트",
+    "image": "images/kakaotalk20231110011831395.png",
+    "category": "일러스트",
+    "description": "SD 팝아트 스타일의 일러스트 입니다.",
+    "tags": [
+      "OC"
+    ],
+    "date": "2023-11-14",
+    "featured": false
   }
 ]
