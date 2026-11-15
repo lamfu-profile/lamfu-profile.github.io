@@ -101,5 +101,17 @@
     ],
     "date": "2026-02-05",
     "featured": false
+  },
+  {
+    "title": "거대 심해 인외 디자인 시트",
+    "image": "images/code000-lake-coral.jpg",
+    "category": "캐릭터 시트",
+    "description": "개인 세계관 내에 인외에 대한 보고서 같은 느낌으로 제작되었습니다.",
+    "tags": [
+      "OC",
+      "인외"
+    ],
+    "date": "2026-04-15",
+    "featured": false
   }
 ]
