@@ -79,5 +79,16 @@
     ],
     "date": "2023-11-14",
     "featured": false
+  },
+  {
+    "title": "갯강구 댄스!",
+    "image": "images/file.gif",
+    "category": "애니메이션",
+    "description": "지인 지원용 갯강구 댄스 애니메이션",
+    "tags": [
+      "애니메이션"
+    ],
+    "date": "2026-07-18",
+    "featured": false
   }
 ]
