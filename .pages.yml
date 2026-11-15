@@ -20,6 +20,12 @@ content:
         label: 이미지
         type: image
         required: true
+        description: 카드에 보이는 대표 그림이에요. 만화라면 1장을 올려요.
+      - name: images
+        label: 이어지는 이미지 (만화 2장부터)
+        type: image
+        list: true
+        description: 여기 넣은 순서대로 대표 그림 다음에 넘겨 볼 수 있어요. 한 장짜리 작품이면 비워 두세요.
       - name: category
         label: 카테고리
         type: string

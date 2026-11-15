@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- LAMFU: wolf head (pointed ears, charcoal) + lamb wool fringe and curled horns -->
+  <path d="M0 10Q0 0 10 0H54Q64 0 64 10V46L46 64H10Q0 64 0 54Z" fill="#D6545C"/>
+  <path d="M9 34 13 5 27 17ZM55 34 51 5 37 17Z" fill="#1F1E23"/>
+  <path d="M15.5 20 17 11 23 17ZM48.5 20 47 11 41 17Z" fill="#F3C6C8"/>
+  <path d="M12 30Q12 15 32 15Q52 15 52 30V38Q50 50 32 58Q14 50 12 38Z" fill="#1F1E23"/>
+  <path d="M24 44Q32 39 40 44Q40 54 32 57Q24 54 24 44Z" fill="#FFFFFF"/>
+  <g fill="#FFFFFF">
+    <circle cx="21" cy="20" r="6.5"/><circle cx="32" cy="17" r="7.5"/><circle cx="43" cy="20" r="6.5"/>
+    <circle cx="26.5" cy="25" r="5"/><circle cx="37.5" cy="25" r="5"/>
+  </g>
+  <g fill="none" stroke="#A9A8AE" stroke-width="3.2" stroke-linecap="round">
+    <path d="M15 24Q4 21 4 32Q4 40 10.5 39.5Q15 39 14.5 34.5Q14 31 10.5 32"/>
+    <path d="M49 24Q60 21 60 32Q60 40 53.5 39.5Q49 39 49.5 34.5Q50 31 53.5 32"/>
+  </g>
+  <path d="M21 34Q24 31.5 27 34Q24 36.5 21 34ZM37 34Q40 31.5 43 34Q40 36.5 37 34Z" fill="#D6545C"/>
+  <path d="M29 45H35L32 48.5Z" fill="#1F1E23"/>
+</svg>

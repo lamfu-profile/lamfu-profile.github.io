@@ -10,7 +10,7 @@
 
 ## 구조
 - `index.html` — 화면 전체(HTML·CSS·JS 한 파일). 빌드 도구 없음.
-- `data/works.json` — 작품 배열. 필드: title, image, category, description, tags[], date(YYYY-MM-DD), featured(boolean)
+- `data/works.json` — 작품 배열. 필드: title, image(대표·1장), images[](이어지는 장, 선택), category, description, tags[], date(YYYY-MM-DD), featured(boolean)
 - `data/site.json` — profile{name, role, lead, intro, fields[], tools[], email, links[{label,url}], commission(open|closed), commissionNote}, hero{image, zoom, x, y}, categories[{name, en, color}]
 - `images/` — 이미지. Pages CMS 업로드도 여기로 저장됨.
 - `.pages.yml` — Pages CMS 입력 화면 설정. `data/*.json` 필드 이름을 바꾸면 `.pages.yml`과 `index.html`을 함께 고칠 것.
