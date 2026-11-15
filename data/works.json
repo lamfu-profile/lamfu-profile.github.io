@@ -135,7 +135,12 @@
       "images/file-3.jpg"
     ],
     "category": "표정 시트",
-    "date": "2026-11-16",
+    "description": "COC TRPG 코코포리아용 캐릭터 표정 시트입니다.",
+    "tags": [
+      "OC",
+      "TRPG"
+    ],
+    "date": "2026-08-26",
     "featured": false
   }
 ]
