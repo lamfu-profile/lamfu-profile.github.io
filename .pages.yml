@@ -24,8 +24,9 @@ content:
       - name: images
         label: 이어지는 이미지 (만화 2장부터)
         type: image
-        list: true
-        description: 여기 넣은 순서대로 대표 그림 다음에 넘겨 볼 수 있어요. 한 장짜리 작품이면 비워 두세요.
+        options:
+          multiple: true
+        description: 여러 장을 한 번에 골라 올릴 수 있어요. 넣은 순서대로 대표 그림 다음에 넘겨 보며, 끌어서 순서를 바꿀 수 있어요. 한 장짜리 작품이면 비워 두세요.
       - name: category
         label: 카테고리
         type: string
