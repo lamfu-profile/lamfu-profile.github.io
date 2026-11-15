@@ -127,5 +127,15 @@
     ],
     "date": "2026-04-15",
     "featured": false
+  },
+  {
+    "title": "[TRPG] 캐릭터 표정 시트 ",
+    "image": "images/1.jpg",
+    "images": [
+      "images/file-3.jpg"
+    ],
+    "category": "표정 시트",
+    "date": "2026-11-16",
+    "featured": false
   }
 ]
