@@ -2,7 +2,7 @@
   "profile": {
     "name": "LAMFU",
     "role": "일러스트레이터",
-    "lead": "썸네일과 간단한 만화 등 캐릭터 일러스트 작업을 하고 있습니다.",
+    "lead": "썸네일과 캐릭터 일러스트 작업을 하고 있습니다!",
     "fields": [
       "썸네일",
       "일러스트",
@@ -14,8 +14,8 @@
         "url": "https://x.com/Lamfu211"
       },
       {
-        "label": "Discord",
-        "url": "LamFu"
+        "label": "OPENkakao",
+        "url": "https://open.kakao.com/me/lamfu"
       }
     ],
     "commission": "closed",
