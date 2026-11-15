@@ -113,5 +113,19 @@
     ],
     "date": "2026-04-15",
     "featured": false
+  },
+  {
+    "title": "무테 게임 삽화 스타일 일러스트",
+    "image": "images/15-3.jpg",
+    "images": [
+      "images/15-2-1.jpg"
+    ],
+    "category": "일러스트",
+    "tags": [
+      "OC",
+      "일러스트"
+    ],
+    "date": "2026-04-15",
+    "featured": false
   }
 ]
